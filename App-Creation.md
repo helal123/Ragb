@@ -1,1 +1,2 @@
-This describes how to create an app.
+If you want to add an app that is not currently supported, here is how you go about that...
+
