@@ -1,7 +1,7 @@
 If you want to add an app that is not currently supported, here is how you go about that:
 1. Fork the [UserLAnd-Assets-Support](https://github.com/CypherpunkArmory/UserLAnd-Assets-Support) repository.
-2. The list of apps supported is controlled by the [apps.txt](https://github.com/CypherpunkArmory/UserLAnd-Assets-Support/blob/staging/apps/apps.txt) file..
-3. The header in that file, describes what each field means, but there are some things that would be good to point out.
+2. The list of apps supported is controlled by the [apps.txt](https://github.com/CypherpunkArmory/UserLAnd-Assets-Support/blob/staging/apps/apps.txt) file.  You must add a new entry in that file.
+3. The header, in that file, describes what each field means, but there are some things that would be good to point out.
    * If the app `Category` is `Distribution`, the `App Name` and `Filesystem Type Required` must match.
    * If the app `Category` is not `Distribution`, the `Filesystem Type Required` must be `debian` (for now).
    * `isPaidApp` must be `false`.
