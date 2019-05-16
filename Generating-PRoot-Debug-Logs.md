@@ -5,4 +5,5 @@
 3) If the `PRoot Debugging Logs Enabled` setting is not active, activate it.
 4) Open the `Debug Verbosity Level` setting and set it to at least 1, but preferably 9.
 5) Start a session or app.
-6) Retrieve the debug log from `/mnt/sdcard/PRoot_Debug_Log`.
+6) Once you have finished executing commands in a session, stop the session.
+7) Export the debug log from the settings page.
