@@ -1,3 +1,3 @@
-Our default branch is `master`. When merging feature branches, use the `Squash and merge` option.
+Our default branch is `master`. When merging feature branches, use the **squash and merge** option.
 
 To make a release, simply bump the versionCode and versionName fields of `build.gradle` and PR from master into releases using a **merge commit**. Merge commits are automatically ignored when generating release notes. CD will handle releasing to the play-store and generating a Github release, which F-Droid will pull from for their release.
