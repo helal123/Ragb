@@ -1,3 +1,3 @@
 Our default branch is `master`. When merging feature branches, use the `Squash and merge` option.
 
-Once a release has been prepared, use *merge commits* to merge the release in the `releases` branch. Tag it with a version number of the format v1.0.0 and upload the APK. This will propagate the release to F-Droid. Release manually to the developer console as well.
+To make a release, simply bump the versionCode and versionName fields of `build.gradle` and PR from master into releases using a **merge commit**. Merge commits are automatically ignored when generating release notes. CD will handle releasing to the play-store and generating a Github release, which F-Droid will pull from for their release.
