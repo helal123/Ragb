@@ -1,7 +1,7 @@
 ## Background context
 Android Q introduces security improvements that change how apps are required to handle files. You can read more about these changes [here](https://developer.android.com/preview/privacy/scoped-storage). TL;DR, we can no longer be granted blanket access to user's SD cards. This is generally a good thing in terms of your security, but it means that getting files into and out of UserLAnd has become a slightly more involved process. 
 
-** AN IMPORTANT NOTE ABOUT USERLAND FILES **
+### AN IMPORTANT NOTE ABOUT USERLAND FILES
 Scoped storage is deleted when the app is uninstalled. To keep any files after uninstalling, make sure to copy them somewhere outside scoped storage before you uninstall.
 
 ## Sharing files using `/storage` in a UserLAnd session
