@@ -6,4 +6,4 @@
 4) Open the `Debug Verbosity Level` setting and set it to at least 1, but preferably 9.
 5) Start a session or app.
 6) Once you have finished executing commands in a session, stop the session.
-7) Export the debug log from the settings page.
+7) Find the log using the steps describing in [Importing and exporting files in UserLAnd](https://github.com/CypherpunkArmory/UserLAnd/wiki/Importing-and-exporting-files-in-UserLAnd) under "Accessing files through an Android file browser".
