@@ -5,8 +5,9 @@
 
    For vnc, we use display :51.  So, you can use a vnc client from another device on the same network by connecting you your_phones_ip and specifying the display is :51 or the port is 5951 (depending on what your client needs).
 
-1. How do I get Firefox working?
+2. How do I get Firefox working?
 
+   # Installing Firefox on Debian
    For Debian, you can just click the Firefox icon on the apps page.  Or you can do the following manually:
    ```
    sudo apt update
@@ -14,7 +15,8 @@
    firefox-esr &
    ```
 
-   [For Ubuntu](#firefox-ubuntu), you can do the following (sorry it is a little more involved):
+   # Installing Firefox on Ubuntu
+   For Ubuntu you can do the following (sorry it is a little more involved):
    ```
    sudo apt update
    sudo apt install software-properties-common
