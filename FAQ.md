@@ -14,7 +14,7 @@
    firefox-esr &
    ```
 
-   For Ubuntu, you can do the following (sorry it is a little more involved):
+   [For Ubuntu](#firefox-ubuntu), you can do the following (sorry it is a little more involved):
    ```
    sudo apt update
    sudo apt install software-properties-common
