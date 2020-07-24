@@ -1,11 +1,20 @@
 
-# 1. How do I connect from a device on the same network?
+# 1. How can I help out?
+- You can sponsor us [on github](https://github.com/sponsors/corbinlc).
+- You can sponsor us by giving in the app.
+- You can [contribute](https://github.com/CypherpunkArmory/UserLAnd/blob/master/CONTRIBUTING.md) code, translations or graphics. 
+- You can respond to [issues](https://github.com/CypherpunkArmory/UserLAnd/issues), or file your own. 
+- You can [rate UserLAnd](https://play.google.com/store/apps/details?id=tech.ula).
+- You can tell others about UserLAnd.
+  - On twitter we are [@UserLAndTech](https://twitter.com/UserLAndTech).
+
+# 2. How do I connect from a device on the same network?
 
    For ssh, we use port 2022.  So, you can use an ssh client from another device on the same network by connecting to your_phones_ip:2022 .
 
    For vnc, we use display :51.  So, you can use a vnc client from another device on the same network by connecting you your_phones_ip and specifying the display is :51 or the port is 5951 (depending on what your client needs).
 
-# 2. How do I get Firefox working?
+# 3. How do I get Firefox working?
 
    # Installing Firefox on Debian
    For Debian, you can just click the Firefox icon on the apps page.  Or you can do the following manually:
@@ -28,7 +37,7 @@
    
    For other distros, please look online, possibly specifically on the Firefox website for how to install firefox-esr from packages (not snap).
 
-# 3. How do I install a desktop environment?
+# 4. How do I install a desktop environment?
 
    # The easy way
    For Debian, you can just click the `xfce` or `lxde` app icons and it will be setup for you.
